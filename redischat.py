@@ -87,6 +87,6 @@ if __name__ == '__main__':
     config = dict(
         debug=True,
         hsot="127.0.0.1",
-        port=3000
+        port=8000
     )
     app.run(**config)
